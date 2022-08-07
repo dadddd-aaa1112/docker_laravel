@@ -88,6 +88,7 @@
 
                                                    @if(isset($_GET['title_search']))
                                                        value="{{$_GET['title_search']}}"
+                                                      
                                                    @endif
                                                    type="text"
                                                    class="mb-3 form-control"
